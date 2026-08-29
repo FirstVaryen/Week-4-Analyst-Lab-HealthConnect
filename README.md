@@ -15,7 +15,7 @@ week-4/
 │   ├── HealthConnect_Data_Dictionary.xlsx         # Variable definitions
 │   ├── HealthConnect_Data_Dictionary - Data Dictionary.csv
 │   └── HealthConnect_Clinic_Knowledge_Base.docx.pdf
-└── Week4_Project_Summary.docx                 # Concise Week 4 summary + Week 5 focus
+└── Week4_Project_Summary.pdf                  # Concise Week 4 summary + Week 5 focus
 ```
 
 ## What's in the analysis notebook
