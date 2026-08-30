@@ -41,3 +41,8 @@ Original resources provided by AnalystLab Africa for the HealthConnect Experienc
 - Calculate and visualise the five locked KPIs
 - Test whether the three strongest variables hold up in combination (confounding check)
 - Align outcome-variable definition with the Data Science track before their modelling begins
+
+## Week 4 progress posts
+
+- LinkedIn: https://lnkd.in/p/efskJznQ
+- X: https://x.com/Varyen01/status/2093861647370633259?s=20
