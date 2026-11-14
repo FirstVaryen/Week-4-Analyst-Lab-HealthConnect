@@ -1,0 +1,7 @@
+# HealthConnect Week 4 - Data Analytics track
+# Same versions as the Week 5 environment (Python 3.14):
+#   python -m venv .venv
+#   .venv\Scripts\activate      (Windows)  /  source .venv/bin/activate  (macOS/Linux)
+#   pip install -r requirements.txt
+pandas==3.0.5
+jupyterlab==4.6.3

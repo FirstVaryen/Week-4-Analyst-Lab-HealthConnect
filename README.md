@@ -32,6 +32,18 @@ week-4/
 
 **Key finding:** of all candidate variables, only `previous_no_shows`, `booking_lead_days`, and `distance_to_clinic_km` show meaningful, evidence-backed separation between Attended and No-Show outcomes. Reminders show only a weak effect — notably weaker than the business scenario's framing implies. Appointment logistics and demographics show no meaningful separation.
 
+## Reproducing the analysis
+
+```bash
+python -m venv .venv
+.venv\Scriptsctivate          # Windows (macOS/Linux: source .venv/bin/activate)
+pip install -r requirements.txt
+cd week-4/analysis
+jupyter lab HealthConnect_Initial_Analysis.ipynb
+```
+
+Run all cells from the `week-4/analysis/` folder. The notebook reads the data from `../data/`.
+
 ## Data source
 
 Original resources provided by AnalystLab Africa for the HealthConnect Experience Lab. Files are unmodified from their source; any cleaned/derived data will be saved separately as work progresses.
@@ -46,3 +58,7 @@ Original resources provided by AnalystLab Africa for the HealthConnect Experienc
 
 - LinkedIn: https://lnkd.in/p/efskJznQ
 - X: https://x.com/Varyen01/status/2093861647370633259?s=20
+
+## Repository maintenance
+
+**14 Nov 2026:** the notebook's two data paths were corrected to `../data/...` (they pointed at the project root, so the notebook could not find the files when run from `analysis/`), and `requirements.txt` plus the run steps above were added. The analysis, outputs and findings are unchanged.
